@@ -4,6 +4,7 @@ const mongoose = require("mongoose");
 const userRoutes =require("./routes/userRoutes");
 const messageRoutes =require("./routes/messageRoutes");
 const socket=require('socket.io');
+const path=require('path');
 const app=express();
 
 app.use(express.static(path.join(__dirname, 'build')));
