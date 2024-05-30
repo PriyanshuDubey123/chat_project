@@ -39,7 +39,7 @@ const server = app.listen(port, () => {
 const io = socket(server, {
   cors: {
     origin:  "*", // Allow any origin for now or set your specific client URL
-    credentials: true,
+    credentials: true, 
   },
 });
 
